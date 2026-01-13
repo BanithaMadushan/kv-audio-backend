@@ -30,6 +30,11 @@ const userSchema = new mongoose.Schema({
     phone : {
         type: String,
         required: true
+    },
+    profilePicture : {
+        type: String,
+        required: true,
+        default: "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-photo-183042379.jpg"
     }
 
 });
